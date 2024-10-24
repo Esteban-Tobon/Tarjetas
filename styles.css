@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/* Estilos para el contenedor que utiliza Flexbox */
+.contenedor {
+    display: flex; /* Activa el modelo de caja flexible para el contenedor, permitiendo un diseño flexible */
+    flex-wrap: wrap; /* Permite que los elementos hijos se envuelvan a la siguiente línea si no hay suficiente espacio en una sola línea */
+    justify-content: space-around; /* Distribuye los elementos hijos de manera uniforme con espacio alrededor de ellos */
+    padding: 20px; /* Añade un relleno interno de 20 píxeles, creando espacio entre el contenido del contenedor y sus bordes */
+}
+
+
+/* tamaño de las imagenes 
+.mi-imagen {
+        width: 300px; 
+        height: 200px;
+}
+*/
+
+/* Estilos para los elementos con la clase "tarjeta" */
+.tarjeta {
+    width: 300px; /* Establece un ancho fijo de 300 píxeles para la tarjeta */
+    margin: 10px; /* Aplica un margen de 10 píxeles alrededor de la tarjeta, separándola de otros elementos */
+    border: 1px solid #ccc; /* Define un borde de 1 píxel, sólido y de color gris claro */
+    padding: 20px; /* Añade un relleno interno de 20 píxeles, creando espacio entre el contenido y el borde */
+    border-radius: 5px; /* Redondea los bordes de la tarjeta con un radio de 5 píxeles */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Aplica una sombra sutil para dar profundidad a la tarjeta */
+}
+
+
+
+
+
+/* Estilos para las imágenes dentro de elementos con la clase "tarjeta" */
+.tarjeta img {
+    width: 100%; /* Establece el ancho de la imagen al 100% del contenedor padre, haciendo que se ajuste a su tamaño */
+    height: 200px; /* Define la altura de la imagen a 200 píxeles, manteniendo un tamaño consistente */
+    display: block; /* Cambia el comportamiento de la imagen a bloque, eliminando el espacio en línea adicional */
+    border-radius: 5px 5px 0 0; /* Aplica un borde redondeado en la parte superior de la imagen */
+}
+
+
+
+
+/* Estilos para los encabezados h3 dentro de elementos con la clase "tarjeta" */
+.tarjeta h3 {
+    margin-top: 10px; /* Establece un margen superior de 10 píxeles para separar el encabezado de otros elementos */
+}
+
+
+
+/* Estilos para los párrafos dentro de elementos con la clase "tarjeta" */
+.tarjeta p {
+    font-size: 0.9em; /* Establece el tamaño de fuente a 0.9 veces el tamaño de fuente base */
+    line-height: 1.5; /* Define la altura de línea a 1.5 veces el tamaño de la fuente, mejorando la legibilidad */
+}
+
+
+/* */
