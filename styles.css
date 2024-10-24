@@ -1,6 +1,7 @@
 body {
-    font-family: sans-serif;
-    margin: 0;
+    background-color: rgb(181, 181, 190);/*color para todo el body  */
+    font-family: sans-serif; /*tipo de letra a toda la pagina  */
+    margin: 5px;/*margen body */
 }
 
 /* Estilos para el contenedor que utiliza Flexbox */
@@ -21,12 +22,13 @@ body {
 
 /* Estilos para los elementos con la clase "tarjeta" */
 .tarjeta {
-    width: 300px; /* Establece un ancho fijo de 300 píxeles para la tarjeta */
-    margin: 10px; /* Aplica un margen de 10 píxeles alrededor de la tarjeta, separándola de otros elementos */
-    border: 1px solid #ccc; /* Define un borde de 1 píxel, sólido y de color gris claro */
+    background-color: white; /* color fondo de las tarjetas */
+    width: 300px; /* ancho fijo de las tarjetas en px*/
+    margin: 10px; /* margen al rededor de las tarjetas en px las separa de otros  */
+    border: 4px solid #ccc; /* define los bordos */
     padding: 20px; /* Añade un relleno interno de 20 píxeles, creando espacio entre el contenido y el borde */
     border-radius: 5px; /* Redondea los bordes de la tarjeta con un radio de 5 píxeles */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Aplica una sombra sutil para dar profundidad a la tarjeta */
+    box-shadow: 0 2px 5px rgba(46, 49, 235, 0.534); /* Aplica una sombra sutil para dar profundidad a la tarjeta */
 }
 
 
@@ -35,6 +37,7 @@ body {
 
 /* Estilos para las imágenes dentro de elementos con la clase "tarjeta" */
 .tarjeta img {
+  
     width: 100%; /* Establece el ancho de la imagen al 100% del contenedor padre, haciendo que se ajuste a su tamaño */
     height: 200px; /* Define la altura de la imagen a 200 píxeles, manteniendo un tamaño consistente */
     display: block; /* Cambia el comportamiento de la imagen a bloque, eliminando el espacio en línea adicional */
